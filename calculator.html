@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <div class="dropdown">
+    <div class="dropdown-select">
+      <span class="dropdown-value">Value</span>
+    </div>
+    <div class="dropdown-list">
+      <div class="dropdown-item">title</div>
+      <div class="dropdown-item">title</div>
+      <div class="dropdown-item">title</div>
+    </div>
+  </div>
+    <form name="calculator">
+        <table>
+          <tr>
+            <td colspan="4">
+              <input type="text" name="display" disabled>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="button" name="one" value="1"></td>
+            <td><input type="button" name="two" value="2" ></td>
+            <td><input type="button" name="three" value="3"></td>
+            <td><input type="button" class="operator" name="plus" value="+"></td>
+          </tr>
+          <tr>
+            <td><input type="button" name="four" value="4" ></td>
+            <td><input type="button" name="five" value="5"></td>
+            <td><input type="button" name="six" value="6" ></td>
+            <td><input type="button" class="operator" name="minus" value="-" ></td>
+          </tr>
+          <tr>
+            <td><input type="button" name="seven" value="7"></td>
+            <td><input type="button" name="eight" value="8" ></td>
+            <td><input type="button" name="nine" value="9"></td>
+            <td><input type="button" class="operator" name="times" value="x"></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="operator" id="clear" name="clear" value="C" ></td>
+            <td><input type="button" class="operator" name="zero" value="0" ></td>
+            <td><input type="button" class="operator" name="doit" value="=" ></td>
+            <td><input type="button" class="operator" name="div" value="/" ></td>
+          </tr>
+        </table>
+      </form>
+      <script src="calculator.js"></script>
+</body>
+</html>
